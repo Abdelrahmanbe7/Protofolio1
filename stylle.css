@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-Content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.9em;
+}
+
+.navber a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+
+section{
+    padding: 100px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(image.png) ;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.main h2 {
+    color: rgb(196, 196, 196);
+    font-size: 1.5cm;
+    font-weight: 200;
+    padding-right: 20px;
+}
+.main h2 span {
+    display: inline-block;
+    color: #fcfaff;
+    font-size: 1.3cm;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: rgb(252, 252, 252);
+    font-size: 1cm;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #c4c4c4;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: o.5cm;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.9375cm 2.1875cm;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+   }
+   #about h4 {
+    padding: 15px 0;
+    color: #D43F52;
+    background: #000;
+}
+
+#about .progress {
+    border-radius: 4px;
+    background: #272727;
+    height: 6px;
+    
+}
+
+#about .progress .progress-bar-danger {
+    background-color: #D43F52;
+    
+}
+
+#about .text-top {
+    padding-top: 50px;
+    
+}
+
+#about span {
+    color: #3a3939;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+    
+}
+
+#about small {
+    font-weight: bold;
+    float: right;
+    
+}
+.info {
+    text-align: center;
+}
+.social-icons .face{
+    padding: 5px;
+    margin: auto;
+    color: blue;
+}
+.social-icons .face:hover{
+    background-color: #cec3c396;
+    border-radius: 100px;
+    transform: scale(1.1);
+}
+.social-icons .insta{
+    padding: 5px;
+    margin: auto;
+    color: #ff7e1b;
+}
+.social-icons .insta:hover{
+    background-color: #cec3c396;
+    border-radius: 100px;
+    transform: scale(1.1);
+}
+.social-icons .you{
+    padding: 5px;
+    margin: auto;
+    color: red;
+}
+.social-icons .you:hover{
+    background-color: #cec3c396;
+    border-radius: 100px;
+    transform: scale(1.1);
+}
+.social-icons .twitter{
+    padding: 5px;
+    margin: auto;
+    color: rgb(15, 105, 251);
+}
+.social-icons .twitter:hover{
+    background-color: #cec3c396;
+    border-radius: 100px;
+    transform: scale(1.1);
+}
+.info h3{
+    color: #fff7f7;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.Project {
+    background-color: #000000;
+}
+
+.Projects .Contact{
+    margin-top: 30px;
+}
+
+
+.Project-card {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(5, 5, 5);
+    min-height: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.Project-card:hover {
+    transform: scale(1.1);
+}
+
+
+.Project-card:hover .Project-image {
+   opacity: 0.9;
+}
+
+
+
+.Project-image img{
+    width: 100%
+}
+
+
+.Project-info {
+    padding: 1em;
+}
+
+.Project-category { 
+    font-size: 0.8 em;
+    color: rgb(231, 8, 8); 
+}
+
+.Project-title {
+    display: flex;
+    justify-Content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #601cfc;
+}
+
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+
+.Contact .icon{
+    font-size: 4.5em;
+
+}
+
+.Contact .info h3 {
+    color: #030303;
+}
+
+
+.Contact .info p {
+    font-size: 1.9em;
+    color: #000000;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-Content: space-between;
+} 
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}

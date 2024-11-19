@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: sans-serif;
+ }
+ body{
+     background: #333;
+ }
+ 
+ .container{
+     background:#0000;
+     width: 80vm;
+     margin: auto;
+     padding: 20px;
+     border-radius: 10px;
+     display: grid;
+     grid-template-columns: 5fr 3fr;
+ 
+ }
+ .img{
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     justify-content: center;
+     align-items: center;
+ }
+ .img img,canvas{
+     max-width: 50vm;
+     max-height: 40vh;
+     
+ 
+ }
+ .upload input{
+     display: none;
+ 
+ }
+ .upload label{
+     color: #fff;
+     padding: 8px 20px;
+     border: 2px #fff dashed;
+     cursor: pointer;
+ 
+ }
+ .filters ul, .filters ul li{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     direction: rtl;
+ }
+ .filters ul li label{
+     color: #fff;
+ 
+ }
+ .filters ul li:last-child{
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .filters ul li a, span{
+     color: #fff;
+     padding: 10px 20px;
+     background: #062;
+     cursor: pointer;
+     
+ }
+ 
+     
+ .img img,canvas{
+     max-width: 80vm;
+ 
+     }
+ 
+ .footer-title {
+     font-size: 1.3em;
+     font-weight: 600;
+ }
+ 
+ .footer-title span {
+     color: #3a6cf4;
+ }
+ 
+ .footer .social-icons a{
+     font-size: 1.3em;
+     padding: 0 12px 0 0;
+ }
+ 
+ 
